@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: block;
   position: relative;
   overflow: hidden;
+  height: 550px;
+  width: 420px;
 }
 .item .item-wrap:after {
   z-index: 2;
