@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,32 +39,58 @@
 
   <!-- ======= Navbar ======= -->
   <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
+    <div class="container py-2 py-md-4">
       <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="tweet d-flex">
-            <span class="bi bi-twitter text-white mt-2 mr-3"></span>
-            <div>
-              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+
+          <ul class="row">
+          
+          <div class= "col-8 col-sm-8 col-md-2"
+          style="
+    margin-left: 15%;
+    margin-top: 15px;
+    font-size: 22px;
+     font-family: none;
+">
+            <li><a href="index.jsp">메인페이지</a></li>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Hire Me</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
-        </div>
-      </div>
+                <div class= "col-8 col-sm-8 col-md-2"style="
+
+    margin-top: 15px;
+    font-size: 22px;
+     font-family: none;
+">
+            <li><a href="about.html">사이트소개</a></li>
+            </div>
+                <div class= "col-8 col-sm-8 col-md-2"style="
+
+    margin-top: 15px;
+    font-size: 22px;
+     font-family: none;
+">
+            <li><a href="services.html">마이페이지</a></li>
+            </div>
+                <div class= "col-8 col-sm-8 col-md-2"style="
+ 
+    margin-top: 15px;
+    font-size: 22px;
+     font-family: none;
+">
+            <li><a href="works.html">메인게시판</a></li>
+            </div>
+                <div class= "col-8 col-sm-8 col-md-2"style="
+
+    margin-top: 15px;
+    font-size: 22px;
+     font-family: none;
+">
+            <li><a href="contact.html">이벤트게시판</a></li>
+            </div>
+          </ul>
+
+     
 
     </div>
+  </div>
   </div>
 
   <nav class="navbar navbar-light custom-navbar">
@@ -99,6 +127,8 @@
             </div>
           </div>
         </div>
+        
+        
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="item cafe10 cafe col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
@@ -186,10 +216,11 @@
               <div class="work-info">
                 <h3>Build Indoo</h3>
                 <span>Photography</span>
+                
               </div>
               <img class="img-fluid" src="assets/img/음식3.jpg">
             </a>
-          </div>
+          </div> 
            <div class="item cafe col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
               <div class="work-info">
@@ -210,6 +241,41 @@
           </div>
         </div>
       </div>
+      
+      <!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap 4</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<style>
+			p { margin:20px 0px; }
+		</style>
+	</head>
+<!-- 페이지 넘기기 -->
+		<div class="container">
+			<div class="row
+">
+				<div class="col">
+					<ul class="pagination justify-content-center" style="font-size: xx-large;">
+						<li class="page-item"><a class="page-link" href="#"  style="color: gray"><<</a></li>
+						<li class="page1-item"><a class="page-link" href="#"style="color: black; font-weight: 600;">1</a></li>
+						<li class="page2-item"><a class="page-link" href="#"style="color: black; font-weight: 600;">2</a></li>
+						<li class="page3-item"><a class="page-link" href="#" style="color: black; font-weight: 600;">3</a></li>
+						<li class="page4-item"><a class="page-link" href="#" style="color: black; font-weight: 600;">4</a></li>
+						<li class="page5-item"><a class="page-link" href="#" style="color: black; font-weight: 600;">5</a></li>
+						<li class="page-item"><a class="page-link" href="#"  style="color: gray">>></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--End 페이지 넘기기 -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</html>
     </section><!-- End  Works Section -->
 
   
