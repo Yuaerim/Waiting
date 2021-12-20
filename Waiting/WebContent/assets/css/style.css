@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .item .item-wrap img {
   transition: 0.3s transform ease;
   transform: scale(1);
+  border-radius: 20px;
 }
 .item .item-wrap > .work-info {
   position: absolute;
