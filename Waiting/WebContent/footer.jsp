@@ -41,18 +41,16 @@
 
 <body>
 
-	<section class="section">
+	<section class="row">
 		<div class="container">
 			<div class="row justify-content-center text-center mb-4">
 				<div class="col-5">
 
-					<img class="img-fluid" src="assets/img/logo.png">
-					<!--*****로고******-->
+				
 
 				</div>
 			</div>
-			<br />
-
+	
 
 
 
@@ -61,27 +59,29 @@
 			<!-- End #main -->
 
 			<div class="row">
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1" style="
+    margin-left: 25%;
+				>
 					<a href="#" class="client-logo"><img
 						src="assets/img/github1.jpg" alt="Image" class="img-fluid"></a>
 				</div>
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1">
 					<a href="#" class="client-logo"><img src="assets/img/java1.jpg"
 						alt="Image" class="img-fluid"></a>
 				</div>
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1">
 					<a href="#" class="client-logo"><img
 						src="assets/img/mysql1.jpg" alt="Image" class="img-fluid"></a>
 				</div>
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1">
 					<a href="#" class="client-logo"><img
 						src="assets/img/tomcat1.jpg" alt="Image" class="img-fluid"></a>
 				</div>
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1">
 					<a href="#" class="client-logo"><img
 						src="assets/img/eclipse1.jpg" alt="Image" class="img-fluid"></a>
 				</div>
-				<div class="col-4 col-sm-4 col-md-2">
+				<div class="col-4 col-sm-4 col-md-1">
 					<a href="#" class="client-logo"><img
 						src="assets/img/jquey1.jpg" alt="Image" class="img-fluid"></a>
 				</div>
@@ -93,7 +93,7 @@
 		<!-- ======= Footer ======= -->
 		<footer class="footer" role="contentinfo">
 			<div class="container">
-				<div class="row">
+				<div class="row" style="margin-left: 12.5%">
                         <div class="col-8 col-sm-8 col-md-7">
 						<p class="mb-1">&copy; GitHub</p>
 
@@ -138,11 +138,14 @@
 							</div>
 					</div>
 				</div>
+				</br>
 			</div>
 
 </br>
+</br>
+</br>
 			<div class="col-sm-6 social text-md-end"
-				style="margin-left: auto; margin-right: 50px;">
+				style="margin-left: auto; margin-right: 41%;">
 				<a href="#"><span class="bi bi-twitter"></span></a> <a href="#"><span
 					class="bi bi-facebook"></span></a> <a href="#"><span
 					class="bi bi-instagram"></span></a> <a href="#"><span
