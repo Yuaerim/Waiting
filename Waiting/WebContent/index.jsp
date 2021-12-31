@@ -58,7 +58,7 @@
 					</div>
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="services.html">마이페이지</a></li>
+						<li><a href="Mypage.jsp">마이페이지</a></li>
 					</div>
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">

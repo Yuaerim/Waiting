@@ -19,6 +19,7 @@
 
 </head>
 <body>
+	<jsp:include page="header.jsp"></jsp:include>
 
 	<jsp:include page="topbar.jsp"></jsp:include>
 
@@ -26,7 +27,7 @@
 
 	<div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
 		<div class="main-header">
-			<h2 style="text-align: center">회원정보 관리</h2>
+			<h2 style="text-align: center;margin-top: 20px;font-weight: bold;">회원정보 관리</h2>
 			<div class="card p-4">
 				<div class="profile">
 					<div
@@ -53,4 +54,5 @@
 	</div>
 
 </body>
+<jsp:include page="footer.jsp"></jsp:include>
 </html>

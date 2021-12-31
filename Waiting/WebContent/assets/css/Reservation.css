@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    margin-top: 80px;
-    margin-bottom: 20%
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -15,9 +15,8 @@ body {
 	height: 630px;
     width: 600px;
     box-sizing: border-box;
-    padding: 2vh;
     border-radius: 10px !important;
-    margin: 15px
+    margin: 15px;
 }
 
 h2.headingmain {
