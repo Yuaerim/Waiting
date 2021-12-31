@@ -44,13 +44,9 @@
 	<section class="row">
 		<div class="container">
 			<div class="row justify-content-center text-center mb-4">
-				<div class="col-5">
-
-				
-
-				</div>
+				<div class="col-5"></div>
 			</div>
-	
+
 
 
 
@@ -59,7 +55,8 @@
 			<!-- End #main -->
 
 			<div class="row">
-				<div class="col-4 col-sm-4 col-md-1" style="
+				<div class="col-4 col-sm-4 col-md-1"
+					style="
     margin-left: 25%;
 				>
 					<a href="#" class="client-logo"><img

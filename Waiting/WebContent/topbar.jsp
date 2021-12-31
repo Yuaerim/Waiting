@@ -25,13 +25,17 @@
 	<div class="header2 bg-success-gradiant">
 		<div class="">
 			<!-- Header 1 code -->
-			<nav class="navbar navbar-expand-lg h2-nav">
+			<nav class="navbar navbar-expand-lg h2-nav"
+				style="justify-content: center;">
 
 				<ul class="navbar-nav">
 
-					<li class="nav-item"><a class="nav-link" href="Mypage.jsp">회원정보 관리</a></li>
-					<li class="nav-item"><a class="nav-link" href="Reservation.jsp">예약관리</a></li>
-					<li class="nav-item"><a class="nav-link" href="love.jsp">찜 목록</a></li>
+					<li class="nav-item"><a class="nav-link" href="Mypage.jsp">회원정보
+							관리</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="Reservation.jsp">예약관리</a></li>
+					<li class="nav-item"><a class="nav-link" href="love.jsp">찜
+							목록</a></li>
 				</ul>
 			</nav>
 		</div>
