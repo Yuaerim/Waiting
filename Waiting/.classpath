@@ -16,8 +16,8 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/rkdhs/OneDrive/바탕 화면/애림온유/resource/mysql-connector-java-8.0.24/mysql-connector-java-8.0.24.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rkdhs/OneDrive/바탕 화면/애림온유/resource/json/새 폴더/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rkdhs/OneDrive/바탕 화면/애림온유/resource/apache-tomcat-9.0.46/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rkdhs/OneDrive/바탕 화면/애림온유/resource/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

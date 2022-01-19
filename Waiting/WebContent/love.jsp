@@ -23,15 +23,16 @@
 </head>
 <body>
 
+	<jsp:include page="header.jsp"></jsp:include>
+
 	<jsp:include page="topbar.jsp"></jsp:include>
 
 	<div class="container mt-5 mb-5">
 		<div class="main-header">
-			<h2 style="text-align: center">즐겨찾기 목록</h2>
+			<h2 style="text-align: center;margin-top: 20px;font-weight: bold;">즐겨찾기 목록</h2>
 			<div class="d-flex justify-content-between mb-3">
 
-				<button class="btn btn-success add"
-					style="background: black; margin-left: 1170px;">삭제하기</button>
+				<button class="exit">삭제하기</button>
 			</div>
 			<div class="row g-2">
 				<div class="col-md-4 ">
@@ -46,7 +47,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -63,7 +64,7 @@
 								class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -79,7 +80,7 @@
 								class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -94,7 +95,7 @@
 							<i class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -110,7 +111,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -142,7 +143,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -158,7 +159,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn btn-success text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase">가게 자세히 보기</button>
 						</div>
 					</div>
 				</div>
@@ -166,4 +167,5 @@
 		</div>
 		</div>
 </body>
+<jsp:include page="footer.jsp"></jsp:include>
 </html>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-color: #ffff80
+    background-color: #ffffff
 }
 
 .padding {
@@ -8,6 +8,7 @@ body {
 }
 
 .signup-form {
+	border: solid;
     height: 600px;
     background-color: #fff;
     padding: 45px;
@@ -20,6 +21,7 @@ h2 {
 }
 
 .signup-form .form-control {
+	border-color: black;
 	margin-top: 30px;
     font-size: 19px;
     padding: 10px 15px;
