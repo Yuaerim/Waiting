@@ -21,12 +21,13 @@
 
 </head>
 <body>
+	<jsp:include page="header.jsp"></jsp:include>
 
 	<jsp:include page="topbar.jsp"></jsp:include>
 
 	<div class="container d-flex justify-content-center">
 		<div class="main-header">
-			<h2 class="headingmain" style="text-align: center">예약관리</h2>
+			<h2 class="headingmain" style="text-align: center" margin-top: 20px;>예약관리</h2>
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="card d-flex mx-auto">
@@ -85,4 +86,5 @@
 	</div>
 
 </body>
+<jsp:include page="footer.jsp"></jsp:include>
 </html>
