@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>One Waiting Click</title>
+<title>Waiting One Click</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -62,11 +62,11 @@
 					</div>
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="works.html">메인게시판</a></li>
+						<li><a href="Event.jsp">이벤트게시판</a></li>
 					</div>
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="Event.jsp">이벤트게시판</a></li>
+						<li><a href="Event.jsp">로그아웃</a></li>
 					</div>
 				</ul>
 
