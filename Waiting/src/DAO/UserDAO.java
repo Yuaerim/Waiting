@@ -1,12 +1,16 @@
 package DAO;
 
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import DTO.User;
 
-import DTO.Users;
+
+
+
 
 public class UserDAO {
 	Connection conn = null;
@@ -15,7 +19,7 @@ public class UserDAO {
 	
 	
 	//회원가입
-	public boolean SignUp(Users user) {
+	public boolean SignUp(User user) {
 		conn= DBConnection.connect();
 		String sql = "insert into users(u_name,email,u_pnumber,u_id,u_pw) values (?,?,?,?,?)";
 		try {
@@ -24,7 +28,7 @@ public class UserDAO {
 			pstmt.setString(2, user.getU_pw());
 			pstmt.setString(3, user.getU_name());
 			pstmt.setString(4, user.getEmail());
-			pstmt.setInt(5, user.getU_pnumber());
+			pstmt.setString(5, user.getU_pnumber());
 			pstmt.executeUpdate();
 			return true;
 		} catch(SQLException e) {
@@ -75,8 +79,8 @@ public class UserDAO {
 	      return false;
 	}
 	// 회원목록 출력
-	   public Users showUser(String u_id) {
-	      Users user = new Users();
+	   public User showUser(String u_id) {
+	      User user = new User();
 	      conn = DBConnection.connect();
 
 	      try {
@@ -89,7 +93,7 @@ public class UserDAO {
 	            user.setU_id(rs.getString("u_id"));
 	            user.setU_pw(rs.getString("u_pw"));
 	            user.setU_name(rs.getString("u_name"));
-	            user.setU_pnumber(rs.getInt("u_pnumber"));
+	            user.setU_pnumber(rs.getString("u_pnumber"));
 	            user.setEmail(rs.getString("email"));
 	         }
 	      } catch (SQLException e) {
@@ -139,7 +143,7 @@ public class UserDAO {
 	      return true;
 	   }
 	   // 회원정보 수정
-	   public boolean updateUser(Users user) {		// name, email, age, id
+	   public boolean updateUser(User user) {		// name, email, age, id
 			conn = DBConnection.connect();
 			String sql = "update users set u_name=?,"
 					+ " email=?,"
@@ -149,7 +153,7 @@ public class UserDAO {
 				pstmt = conn.prepareStatement(sql);
 				pstmt.setString(1, user.getU_name());
 				pstmt.setString(2, user.getEmail());
-				pstmt.setInt(3, user.getU_pnumber());
+				pstmt.setString(3, user.getU_pnumber());
 				pstmt.setInt(4, user.getU_code());
 				pstmt.executeUpdate();
 				return false;
@@ -168,7 +172,7 @@ public class UserDAO {
 			return true;
 		}
 	   	// 비밀번호 수정
-		public boolean updateUserPw(Users user) {	// id, pw
+		public boolean updateUserPw(User user) {	// id, pw
 			conn = DBConnection.connect();
 			String sql = "update users set u_pw=?"
 					+ " where u_code=?;";
@@ -193,8 +197,8 @@ public class UserDAO {
 			return true;
 		}
 		
-		 public Users getUser(int ucode) {		// name, email, age, id
-			  Users user = new Users();
+		 public User getUser(int ucode) {		// name, email, age, id
+			  User user = new User();
 		      conn = DBConnection.connect();
 
 		      try {
@@ -207,7 +211,7 @@ public class UserDAO {
 		            user.setU_id(rs.getString("u_id"));
 		            user.setU_pw(rs.getString("u_pw"));
 		            user.setU_name(rs.getString("u_name"));
-		            user.setU_pnumber(rs.getInt("u_pnumber"));
+		            user.setU_pnumber(rs.getString("u_pnumber"));
 		            user.setEmail(rs.getString("email"));
 		           
 		         }
@@ -249,9 +253,11 @@ public class UserDAO {
 					}
 				}
 				return true;
+			
 			}
+}
 		 
-		 
-	}
+	
+
 
 
