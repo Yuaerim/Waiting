@@ -1,19 +1,31 @@
 package DTO;
 
-public class User {
-	
+public class Users {
+	private int u_code;
 	private String u_name;
 	private String email;
 	private String u_pnumber;
 	private String u_id;
 	private String u_pw;
 	
-	public User(String u_name, String email, String u_pnumber, String u_id, String u_pw) {
+	public Users() {;}
+	
+	public Users(int u_code, String u_name, String email, String u_pnumber, String u_id, String u_pw) {
+		this.u_code = u_code;
 		this.u_name = u_name;
 		this.email = email;
 		this.u_pnumber = u_pnumber;
 		this.u_id = u_id;
 		this.u_pw = u_pw;
+	}
+
+
+	public int getU_code() {
+		return u_code;
+	}
+
+	public void setU_code(int u_code) {
+		this.u_code = u_code;
 	}
 
 	public String getU_name() {
