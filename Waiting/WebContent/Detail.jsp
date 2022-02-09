@@ -1,3 +1,4 @@
+<%@page import="DTO.Users"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -92,7 +93,7 @@
 				<div class="container">
 					<div class="row align-items-stretch">
 						<div class="col-md-8" data-aos="fade-up">
-							<img src="assets/img/cafe3.jpg" alt="Image" class="img-fluid detailimg">
+							<img src="assets/${ing_Waiting_f.theme}/${ing_Waiting_f.img}" alt="Image" class="img-fluid detailimg">
 						</div>
 						<div class="col-md-3 ml-auto" data-aos="fade-up"
 							data-aos-delay="100">
