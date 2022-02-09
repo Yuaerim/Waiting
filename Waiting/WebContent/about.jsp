@@ -18,14 +18,9 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+
     <link href="assets/css/about.css" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: MyPortfolio - v4.7.0
-  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -36,35 +31,48 @@
 
  
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials Section ======= -->]
+    	<div class="container" style="margin-top: 20px">
+			<div class="section-header">
+				<h3 style="font-weight: 100;" >A website developer</h3>
+				<hr>
+			
+			</div>
     <section class="section pt-0">
-      <div class="container">
+      <div class="container" >
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide" >
-              <div class="testimonial-wrap" id="aboutus">
-                <div class="testimonial">
-                  <img src="assets/img/vn.png" alt="Image" class="img-fluid;" >
-                  <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
-                  </blockquote>
-                  <p>&mdash; 유애림 &mdash;</p>
+            <div class="swiper-slide"  >
+              <div class="testimonial-wrap" id="aboutus" >
+                <div class="testimonial" >
+                  <img src="assets/img/vn.png" alt="Image" class="img-fluid;"  >
+                
+                  <p>&mdash; yu aerim &mdash;</p>
+                            <hr> </hr>
+                  
+			<div class="col-sm-6 social text-md-end"
+				style="margin-left: auto; margin-right: 41%;">
+		 <a href="#"><span class="bi bi-facebook"></span></a> 
+		 <a href="#"><span class="bi bi-instagram"></span></a> 
+			</div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
-                <div class="testimonial">
+                <div class="testimonial" >
                   <img src="assets/img/bi1.png" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
-                  </blockquote>
-                  <p>&mdash; 강온유 &mdash;</p>
+           
+                  <p>&mdash; kang onyu &mdash;</p>
+                  <hr> </hr>
+                  	<div id="d_fi" class="col-sm-6 social text-md-end"
+				style="margin-left: auto; margin-right: 41%;">
+		 <a href="#"><span class="bi bi-facebook"></span></a> 
+		 <a href="#"><span class="bi bi-instagram"></span></a> 
+			</div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -74,6 +82,7 @@
         </div>
 
       </div>
+     
     </section><!-- End Testimonials Section -->
   
 

@@ -144,13 +144,6 @@
 </br>
 </br>
 </br>
-			<div class="col-sm-6 social text-md-end"
-				style="margin-left: auto; margin-right: 41%;">
-				<a href="#"><span class="bi bi-twitter"></span></a> <a href="#"><span
-					class="bi bi-facebook"></span></a> <a href="#"><span
-					class="bi bi-instagram"></span></a> <a href="#"><span
-					class="bi bi-linkedin"></span></a>
-			</div>
 		</footer>
 		<a href="#"
 			class="back-to-top d-flex align-items-center justify-content-center"><i

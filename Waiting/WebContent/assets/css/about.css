@@ -2,3 +2,15 @@ aboutus {
   padding: 50px 50px 80px 50px;
   background: #eceff2;
 }
+
+d_fi { 
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    background: #f8f9fa;
+    position: relative;
+    text-align: center;
+    color: #0d1e2d;
+	
+}
