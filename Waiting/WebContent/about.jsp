@@ -51,6 +51,7 @@
                 
                   <p>&mdash; yu aerim &mdash;</p>
                             <hr> </hr>
+                              <hr> </hr>
                   
 			<div class="col-sm-6 social text-md-end"
 				style="margin-left: auto; margin-right: 41%;">
