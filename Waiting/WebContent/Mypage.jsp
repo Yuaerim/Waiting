@@ -1,5 +1,7 @@
+<%@page import="DTO.Users"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tag"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,10 +38,10 @@
 							<img src="https://i.imgur.com/wvxPV9S.png" height="100"
 								width="100" />
 						</button>
-						<span class="name">김나나</span> <span class="idd">김나나@naver.com</span>
+						<span class="name">${session_user.u_name}</span> <span class="idd">${session_user.email}</span>
 						<div
 							class="d-flex flex-row justify-content-center align-items-center gap-2">
-							<span class="idd1">010-1234-5678</span>
+							<span class="idd1">${session_user.u_pnumber}</span>
 						</div>
 
 						<div class=" d-flex mt-5 gap-2">
