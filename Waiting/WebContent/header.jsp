@@ -83,11 +83,20 @@
 			<a href=#> <img class="img-fluid"
 				src="assets/img/logo.png"></a>
 			<!--*****로고******-->
+
 			  <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
         <span></span>
       </a>
     </div>
   </nav>
+
+
+			<a href="#" class="burger" data-ㄴbs-toggle="collapse"
+				data-bs-target="#main-navbar"> <span></span>
+			</a>
+		</div>
+	</nav>
+
 
 
 

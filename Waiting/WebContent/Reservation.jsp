@@ -1,5 +1,7 @@
+<%@page import="DTO.Users"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tag"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +29,7 @@
 
 	<div class="container d-flex justify-content-center">
 		<div class="main-header">
-			<h2 class="headingmain" style="text-align: center" margin-top: 20px;>예약관리</h2>
+			<h2 class="headingmain" style="text-align: center"margin-top: 20px;>예약관리</h2>
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="card d-flex mx-auto">
@@ -35,14 +37,16 @@
 							<h3 class="card-title mb-4">진행중인 예약 목록</h3>
 							<div class="table-responsive">
 								<table class="table table-hover">
-									<thead>
+									<thead id="my">
 										<tr>
 											<th>음식점 이름</th>
 											<th>대기번호</th>
 											<th>예약취소</th>
 										</tr>
 									</thead>
-
+									<tbody>
+										<tag:ing_Waiting></tag:ing_Waiting>
+									</tbody>
 								</table>
 							</div>
 						</div>
@@ -54,29 +58,19 @@
 						<div class="card-body">
 							<h3 class="card-title mb-4">지난 예약 목록</h3>
 
+							<div class="table-responsive">
+								<table class="table table-hover">
+									<thead id="my">
+										<tr>
+											<th>음식점 이름</th>
 
-							<div class="card-body">
-								<div class="list-group">
-									<a href="#"
-										class="list-group-item list-group-item-action flex-column align-items-start box">
-										<div class="d-flex justify-content-between write">
-											<h5>피자집</h5>
-											<small>19 days ago</small>
-										</div>
-									</a> <a href="#"
-										class="list-group-item list-group-item-action flex-column align-items-start box">
-										<div class="d-flex justify-content-between write">
-											<h5>파스타집</h5>
-											<small>10 days ago</small>
-										</div>
-									</a> <a href="#"
-										class="list-group-item list-group-item-action flex-column align-items-start box">
-										<div class="d-flex justify-content-between write">
-											<h5>떡볶이집</h5>
-											<small>13 days ago</small>
-										</div>
-									</a>
-								</div>
+											<th>예약한 시간</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tag:end_Waiting></tag:end_Waiting>
+									</tbody>
+								</table>
 							</div>
 						</div>
 					</div>
