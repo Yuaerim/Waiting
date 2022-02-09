@@ -36,62 +36,8 @@
 </head>
 
 <body>
- <!-- ======= Navbar ======= -->
-  <div class="custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-4">
-      <div class="row align-items-start">
-
-          <ul class="row">
-          
-          <div class= "col-8 col-sm-8 col-md-2"
-          style="
-    margin-left: 15%;
-    margin-top: 15px;
-    font-size: 22px;
-     font-family: none;
-">
-            <li><a href="index.jsp">메인페이지</a></li>
-            </div>
-                <div class= "col-8 col-sm-8 col-md-2"style="
-
-    margin-top: 15px;
-    font-size: 22px;
-     font-family: none;
-">
-            <li><a href="about.html">사이트소개</a></li>
-            </div>
-                <div class= "col-8 col-sm-8 col-md-2"style="
-
-    margin-top: 15px;
-    font-size: 22px;
-     font-family: none;
-">
-            <li><a href="services.html">마이페이지</a></li>
-            </div>
-                <div class= "col-8 col-sm-8 col-md-2"style="
- 
-    margin-top: 15px;
-    font-size: 22px;
-     font-family: none;
-">
-            <li><a href="works.html">메인게시판</a></li>
-            </div>
-                <div class= "col-8 col-sm-8 col-md-2"style="
-
-    margin-top: 15px;
-    font-size: 22px;
-     font-family: none;
-">
-            <li><a href="contact.html">이벤트게시판</a></li>
-            </div>
-          </ul>
-
-     
-
-    </div>
-  </div>
-  </div>
- <!-- ======= Navbar end ======= -->
+	<!-- ======= Navbar ======= -->
+<jsp:include page="header.jsp"></jsp:include>
  
  
  <main id="main">
@@ -130,7 +76,7 @@
                   <li>패션후르츠 젤라또</li>
                 </ul>
 
-                <p><a href="#" class="readmore">예약하기</a></p>
+                <p><a href="Booking2.jsp" class="readmore">예약하기</a></p>
               </div>
             </div>
           </div>

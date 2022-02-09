@@ -17,7 +17,8 @@
 
 <!-- Google Fonts -->
 <link
-	href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+	href="https://fonts.googleapis.com/css?family=https://
+	fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
 	rel="stylesheet">
 
 <!-- Vendor CSS Files -->
@@ -42,54 +43,7 @@
 <body>
 
 	<!-- ======= Navbar ======= -->
-	<div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-		<div class="container py-2 py-md-4">
-			<div class="row align-items-start">
-
-				<ul class="row">
-
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-left: 15%; margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="index.jsp">메인페이지</a></li>
-					</div>
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="about.html">사이트소개</a></li>
-					</div>
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="Mypage.jsp">마이페이지</a></li>
-					</div>
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="Event.jsp">이벤트게시판</a></li>
-					</div>
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="Event.jsp">로그아웃</a></li>
-					</div>
-				</ul>
-
-
-
-			</div>
-		</div>
-	</div>
-
-	<nav class="navbar navbar-light custom-navbar">
-		<div class="container">
-			<img class="img-fluid" src="assets/img/logo.png">
-			<!--*****로고******-->
-			<a href="#" class="burger" data-bs-toggle="collapse"
-				data-bs-target="#main-navbar"> <span></span>
-			</a>
-		</div>
-	</nav>
-
-
-
-	<main id="main">
-
+<jsp:include page="header.jsp"></jsp:include>
 
 
 		<!-- ======= Works Section ======= -->
@@ -117,7 +71,7 @@
 				<div id="portfolio-grid" class="row no-gutter" data-aos="fade-up"
 					data-aos-delay="200">
 					<div class="item cafe10 cafe col-sm-6 col-md-4 col-lg-4 mb-4">
-						<a href="work-single.html" class="item-wrap fancybox">
+						<a href="Booking.jsp" class="item-wrap fancybox">
 							<div class="work-info">
 								<h3>Boxed Water</h3>
 								<span>Web</span>

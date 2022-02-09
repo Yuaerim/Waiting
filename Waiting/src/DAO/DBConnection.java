@@ -11,15 +11,14 @@ public class DBConnection {
    
    public static Connection connect() {
       try {   
-   
          Context initContext = new InitialContext(); 
          String path="java:/comp/env/";
-         String dePath="jdbc/mysql"; 
+         String dePath="jdbc/mysql";
          DataSource ds = (DataSource) initContext.lookup(path+dePath);
          conn = ds.getConnection();
       } catch (Exception e) {
          e.printStackTrace();
       }
-      return conn;  //여기부터 다시 작성
+      return conn;
    }
 }

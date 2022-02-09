@@ -47,7 +47,7 @@
 								class="fa fa-star"></i> <i class="fa fa-star"></i>
 						</div>
 						<div class="mt-4 apointment">
-							<button class="btn text-uppercase">가게 자세히 보기</button>
+							<button class="btn text-uppercase"><a href="Booking.jsp">가게 자세히 보기</a></button>
 						</div>
 					</div>
 				</div>

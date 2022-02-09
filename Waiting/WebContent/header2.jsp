@@ -46,8 +46,7 @@
 		<div class="container py-2 py-md-4">
 			<div class="row align-items-start">
 
-				<ul class="row"
->
+				<ul class="row">
 
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-left: 15%; margin-top: 15px; font-size: 22px; font-family: none;">
@@ -57,18 +56,20 @@
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
 						<li><a href="about.jsp">ABOUT</a></li>
 					</div>
-
+			
+				
 					<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
 						<li><a href="Event.jsp">EVENT</a></li>
 					</div>
+							<div class="col-8 col-sm-8 col-md-2"
+						style="margin-top: 15px; font-size: 22px; font-family: none;">
+						<li><a href="Mypage.jsp">MyPage</a></li>
+					</div>
+					
 						<div class="col-8 col-sm-8 col-md-2"
 						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="login.jsp">LogIn</a></li>
-					</div>
-					<div class="col-8 col-sm-8 col-md-2"
-						style="margin-top: 15px; font-size: 22px; font-family: none;">
-						<li><a href="SignUp.jsp">SingUp</a></li>
+						<li><a href=#>Logout</a></li>
 					</div>
 				</ul>
 
@@ -80,14 +81,14 @@
 
 	<nav class="navbar navbar-light custom-navbar">
 		<div class="container" style="margin-top: 0px;">
-			<a href=#> <img class="img-fluid"
+			<a href="index.jsp"> <img class="img-fluid"
 				src="assets/img/logo.png"></a>
 			<!--*****로고******-->
-			  <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
-        <span></span>
-      </a>
-    </div>
-  </nav>
+			<a href="#" class="burger" data-bs-toggle="collapse"
+				data-bs-target="#main-navbar"> <span></span>
+			</a>
+		</div>
+	</nav>
 
 
 

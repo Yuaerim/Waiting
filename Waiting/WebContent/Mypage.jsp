@@ -43,7 +43,7 @@
 						</div>
 
 						<div class=" d-flex mt-5 gap-2">
-							<button class="btn1 btn-dark">회원정보 수정</button>
+							<button class="btn1 btn-dark"><a href="Changeinfo.jsp" style="color: #ffffffff;">회원정보 수정</a></button>
 							<button class="btn1 btn-dark">회원 탈퇴</button>
 						</div>
 
