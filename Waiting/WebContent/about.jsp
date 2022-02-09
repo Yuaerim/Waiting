@@ -34,7 +34,7 @@
     <!-- ======= Testimonials Section ======= -->]
     	<div class="container" style="margin-top: 20px">
 			<div class="section-header">
-				<h3 style="font-weight: 100;" >A website developerr</h3>
+				<h3 style="font-weight: 100;" >A website developerrㄱ</h3>
 				<hr>
 			
 			</div>
