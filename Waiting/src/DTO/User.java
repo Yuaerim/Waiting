@@ -7,7 +7,9 @@ public class User {
 	private String u_pnumber;
 	private String u_id;
 	private String u_pw;
+	private int u_age;
 	
+
 	public User( ) {;}
 	
 	public User(int u_code,String u_name, String email, String u_pnumber, String u_id, String u_pw) {
@@ -17,6 +19,7 @@ public class User {
 		this.u_pnumber = u_pnumber;
 		this.u_id = u_id;
 		this.u_pw = u_pw;
+		this.u_age=u_age;
 	}
 
 	public int getU_code() {
@@ -64,5 +67,13 @@ public class User {
 	public void setU_pw(String u_pw) {
 		this.u_pw = u_pw;
 	}
+	public int getU_age() {
+		return u_age;
+	}
+
+	public void setU_age(int u_age) {
+		this.u_age = u_age;
+	}
+
 
 }
