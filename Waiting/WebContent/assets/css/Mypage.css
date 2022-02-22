@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #ffffff
+}
+
+.card {
+	margin-top: 30px;
+    width: 1000px;
+    height: 800px;
+    background-color: #c0c0c0;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+     border-color: black !important;
+    border-radius: 20px !important;
+}
+
+.image img {
+    transition: all 0.5s;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.btn {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%
+}
+
+.name {
+	margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 20px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 20px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+	 border-radius: 20px !important;
+    height: 40px;
+    width: 150px;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+
+
+.date {
+    background-color: #ccc
+}
+
+.profile {
+	margin-top : 50px;
+}
+
+.booo{
+	 border-color: black !important;
+    border-radius: 20px !important;
+}

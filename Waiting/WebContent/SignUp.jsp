@@ -13,27 +13,29 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
 	<div class="container_join">
 		<div class="d-flex justify-content-center">
-			<form name="signup" method="post" action="login.jsp">
+			<form name="signupForm" method="post" action="${pageContext.request.contextPath}/FrontController/UserCheckIdOK.us">
 				<h2 class="heading mb-6" id="signupTitle">Sign Up</h2>
 				<!--  ID -->
 				<div class="form-group fone mt-5">
 					<div class="input-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="InputArea"
-								style="width: 120px;">ID</span>
+							<p>ID<span class="input-group-text" id="idCheck_text"
+								style="width: 120px;"></span>
+								</p>
 						</div>
 						<input type="text" class="form-control is-invalid" maxlength="20"
 							placeholder="ID를 입력하세요" aria-describedby="InputArea" required
-							name="id">
-						<!--  <input type="button" class="Idcheckbtn"
-							style="margin-left: 6px; text-align: center;" value="중복확인 "> -->
+							name="userid" id="userid">
+						
 					</div>
 
 					<div class="check_font" id="id_check">
 						<!--  alert -->
-					</div>
+					</div> 
 				</div>
 				<!--  PW -->
 				<div class="form-group fone mt-4">
@@ -102,8 +104,10 @@
 
 				<br>
 				<div id="signupbtn">
-					<input type="submit" class="signupbtn" id="signup_btn" value="회원가입"
-						onclick="button1_click();">
+				<li>
+					<input type="submit" class="signupbtn" value="회원가입"
+						onclick="formSubmit()">
+						</li>
 				</div>
 				<p class="exist mt-2" style="text-align: center; font-size: 15px;">
 					Existing user? <a href="login.jsp"><span>Log in</span></a>
@@ -117,9 +121,11 @@
 		</div>
 
 	</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 </body>
-<script type="text/javascript" src="assets/js/signup.js"></script>
+<script src="${pageContext.request.contextPath}/assets/js/signup.js"></script>
+<script>var contextPath = "${pageContext.request.contextPath}"</script>
 <script>
 function button1_click() {
 	console.log("버튼1을 누르셨습니다.");
